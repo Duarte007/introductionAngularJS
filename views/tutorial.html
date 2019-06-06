@@ -1,0 +1,18 @@
+<hr />
+<h1>{{tutorialObject.title}}</h1>
+<h2>{{tutorialObject.subTitle}}</h2>
+
+<p>String: {{tutorialObject.name}}</p>
+<p><b>Binding: {{tutorialObject.bindOutput | currency: "R$": "4"}}</b></p>
+
+<label>Name</label>
+<input ng-model="tutorialObject.name">
+
+<button ng-click="timesTwo()">Multiply</button>
+
+<md-element-test></md-element-test>
+<span md-attribute-test></span>
+
+<br>
+
+<a href="#/">Home</a>
